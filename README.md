@@ -8,8 +8,8 @@ On IDA: File, Script File (or just ALT F7) then browse to idbg.py <br />
   On WinDbg: !load path  <br />
              !sync_with module (module without the .dll at the end) <br />
 ## How to unload: <br />
-  On WinDbg: !unload_idbg <br />
-             !unload path <br />
+  On WinDbg: !unload_idbg then !unload path<br />
+             
   On IDA: <br />
              just click somewhere on the graph so OnViewCurpos gets called <br />
 (path is the path of the WinDbg DLL extension)  <br />
