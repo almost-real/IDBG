@@ -1,0 +1,9 @@
+LIBRARY
+
+
+EXPORTS  
+	unload_idbg
+    sync_with
+	WinDbgExtensionDllInit 
+	ExtensionApiVersion
+
