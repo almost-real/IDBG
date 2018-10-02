@@ -118,7 +118,7 @@ class uihook(idaapi.UI_Hooks):
 uk = uihook()
 uk.hook()
 
-print("police")
+
 """
 todo: draw cur_eip ?
 	  way to get the last added/deleted bp
