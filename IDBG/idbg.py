@@ -60,9 +60,7 @@ class MyIDAViewWrapper(idaapi.IDAViewWrapper):
 
 
 	def AddBp(self, base0_addr, addr):
-		print(hex(is_key_down(0x4a)), "trying to add:", hex(base0_addr))
 		if(is_key_down(0x4a) == 0):
-			print("not pressing J")
 			return
 	
 		WriteToBeginningOfMmap(self.bps_shared_memory, 'a' + struct.pack('<L', base0_addr)) #todo handle 64bit 
