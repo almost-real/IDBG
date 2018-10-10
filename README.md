@@ -22,3 +22,5 @@ To change the key j to whatever key you want, you have to modify the parameter o
 Credits: <br />
     https://github.com/geohot/qira/blob/master/ida/python/qira.py (took the hooks from there) <br />
     dbgsdk samples from Microsoft and wdbgark https://github.com/swwwolf/wdbgark
+    
+ while using it I found a few bugs that I can't be bothered to fix at the moment since it's fine for me but I'll try to to fix them if someone wants it
